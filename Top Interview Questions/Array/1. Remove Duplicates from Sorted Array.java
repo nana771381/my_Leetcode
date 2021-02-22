@@ -1,5 +1,8 @@
 // Given a sorted array nums, remove the duplicates in-place such that each element appears only once and returns the new length.
 
+// Runtime: 0 ms
+// Memory Usage: 40.7 MB
+
 class Solution {
     public int removeDuplicates(int[] nums) {
         if(nums.length == 0) return 0;
@@ -17,5 +20,3 @@ class Solution {
     }
 }
 
-// Runtime: 0 ms
-// Memory Usage: 40.7 MB
