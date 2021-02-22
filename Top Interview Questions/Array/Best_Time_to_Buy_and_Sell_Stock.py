@@ -1,4 +1,6 @@
 # wrote in java, not accepted, so changed to python instead
+# Runtime: 64 ms
+# Memory Usage: 15 MB
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
