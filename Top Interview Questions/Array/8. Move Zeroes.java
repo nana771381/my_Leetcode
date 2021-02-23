@@ -21,12 +21,14 @@ class Solution {
         int p1 = 0;
         int count = 0;
         
+        // count how many zeros
         for(int j = 0; j< nums.length; j++){
             if(nums[j] == 0){
                 count++;
             }
         }
         
+        // bring all the non zeros to the front using two pointers
         for(int i = 0; i< nums.length; i++){
             if(nums[i] != 0){
                 nums[p1] = nums[i];
@@ -35,6 +37,7 @@ class Solution {
             }
         }
         
+        // connect the zeros at the back "count" times
         for(int k = nums.length - count; k < nums.length; k++){
             nums[k] = 0;
         }
